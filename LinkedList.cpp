@@ -18,7 +18,6 @@ LinkedList::LinkedList(const LinkedList& rhs)
 		return;
 	}
 	else {
-		// see replit, extra credit 1
 		Node* current_clone = new Node;
 		current_clone->value = rhs.head->value;
 		current_clone->next = nullptr;
